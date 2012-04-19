@@ -52,6 +52,13 @@ typedef enum {
 	freenect_depth_format _depthFormat;
 	freenect_led_options  _ledFormat;
     float				  _tiltAmount;
+	NSPopUpButton *LEDColourButton;
+	NSButton *startStopButton;
+	NSTextField *viewFPS;
+	NSTextField *videoFPS;
+	NSTextField *depthFPS;
+	NSTextField *kinectStatus;
+	
 }
 @property (assign) IBOutlet NSTextField *viewFPS, *videoFPS, *depthFPS;
 @property (assign) IBOutlet NSTextField *kinectStatus;

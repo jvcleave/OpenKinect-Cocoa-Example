@@ -18,7 +18,11 @@
 #import "Kinect Processing.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+{
+	NSWindow *window;
+	Kinect_Controller *kinectController;
+	Kinect_Processing *kinectProcessing;
+}
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet Kinect_Controller *kinectController;
 @property (assign) IBOutlet Kinect_Processing *kinectProcessing;

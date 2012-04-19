@@ -17,7 +17,7 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;
+@synthesize window;
 @synthesize kinectController;
 @synthesize kinectProcessing;
 

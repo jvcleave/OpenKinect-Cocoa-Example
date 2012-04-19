@@ -216,9 +216,9 @@
 // OpenGL Initialisation Methods
 //------------------------------------------------------------
 static CVReturn displayLinkCallback(CVDisplayLinkRef displayLink, const CVTimeStamp* now, const CVTimeStamp* outputTime, CVOptionFlags flagsIn, CVOptionFlags* flagsOut, void* displayLinkContext) {
-	@autoreleasepool {
+	/*@autoreleasepool {
 		[(Kinect_Processing*)displayLinkContext frameForTime:outputTime];
-	}
+	}*/
 	return kCVReturnSuccess;
 }
 - (id)initWithFrame:(NSRect)frameRect {
